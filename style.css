@@ -7,7 +7,7 @@
 
 body {
 
-    background-color: lightgrey;
+    background-color: rgb(233, 232, 232);
 }
 
 header {
@@ -19,12 +19,181 @@ header {
 
 }
 
-.logo img {
+.logo {
 
-    width: 120px;
-    line-height: 120px;
+    width: 100px;
     height: 120px;
-    padding: 20px;
-    margin-left: 20px;
+}
+
+.container {
+
+    width: 80%;
+    background-color: white;
+    height: 750px;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+
+.add-task{
+
+    background-color: rgb(64, 203, 238);
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    border: 0px;
+    border: 1px solid  rgb(64, 203, 238);
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.add-section {
+
+    background-color: white;
+    padding: 10px;
+    color: rgb(173, 171, 171);
+    border-radius: 10px;
+    border: 1px solid rgb(173, 171, 171);
+    margin-top: 10px;
 
 }
+
+hr {
+
+    margin-top: 10px;
+}
+
+
+.lista {
+
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+li {
+
+    list-style-type: none;
+    margin: 10px;
+}
+
+.checked {
+
+    border: 1px solid green;
+    color: green;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 25px;
+    display: inline-block;
+    
+}
+
+h3 {
+
+    display: inline-block;
+}
+
+.editorial{
+
+    border: 1px solid  rgb(64, 203, 238);
+    background-color: rgb(64, 203, 238);
+    background-color: rgb(64, 203, 238);
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    width: 100px;
+
+
+}
+
+.Q1{
+
+    border: 1px solid  rgb(151, 42, 151);
+    background-color: rgb(151, 42, 151);
+    background-color:rgb(151, 42, 151);
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    width: 100px;
+
+
+}
+
+.recruiting {
+
+    border: 1px solid rgb(133, 199, 133);
+    background-color: rgb(133, 199, 133);
+    background-color :rgb(133, 199, 133);
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    width: 100px;
+
+}
+
+.unchecked {
+
+    border: 1px solid red;
+    color: red;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 25px;
+    display: inline-block;
+}
+
+.mobile {
+
+    border: 1px solid orange;
+    background-color:orange;
+    background-color: orange;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    width: 100px;
+
+}
+
+.website {
+
+    border: 1px solid rgb(198, 91, 240);
+    background-color:rgb(198, 91, 240);
+    background-color:rgb(198, 91, 240);
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    width: 100px;
+
+}
+
+.sales {
+
+    border: 1px solid rgb(86, 146, 74);
+    background-color:rgb(86, 146, 74);
+    background-color:rgb(86, 146, 74);
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    width: 100px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
